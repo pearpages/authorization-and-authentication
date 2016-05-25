@@ -8,3 +8,15 @@ OAuth 2.0 isn't about authentication. It's about authorization. The standard doe
 
 - Where can the token be delivered to?
 - Can the client appication safely store secrets?
+
+### OAuth 2.0 Flows
+
+It's about making the right decision for the type of application you're building: "how can you safely achieve authorization?".
+
+Flows:
+
+- Client Credentials
+- Authorization Code
+- Implicit
+- Resource Owner Password Credentials
+
