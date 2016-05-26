@@ -20,3 +20,8 @@ Flows:
 - Implicit
 - Resource Owner Password Credentials
 
+### The Main Actors
+
+|---|---|
+|:--|:--|
+|User (Resource Owner)|An entity capable of granting access to a protected resource|
