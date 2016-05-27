@@ -25,3 +25,4 @@ Flows:
 |---|---|
 |:--|:--|
 |User (Resource Owner)|An entity capable of granting access to a protected resource|
+|Client|An application making protected resource requests on behalf of the resource owner and with its authorization|
