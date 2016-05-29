@@ -27,3 +27,4 @@ Flows:
 |User (Resource Owner)|An entity capable of granting access to a protected resource|
 |Client|An application making protected resource requests on behalf of the resource owner and with its authorization|
 |Resource Server|The server hosting the protected resources|
+|Authorization Server|The server issuing access tokens to the client after successfully authenticating the resource owner and obtaining authorization|
