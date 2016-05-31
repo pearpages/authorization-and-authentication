@@ -29,9 +29,16 @@ Flows:
 |Resource Server|The server hosting the protected resources|
 |Authorization Server|The server issuing access tokens to the client after successfully authenticating the resource owner and obtaining authorization|
 
-### Oauth 2.0 Client Types
+### OAuth 2.0 Client Types
 
 |---|---|
 |:--|:--|
 |Confidential Clients|Clients capable of maintaining the confidentiality of their credentials. (On the server)|
 |Public Cleints|Clients incapable of maintaining the confidentiality of their credentials. (Native Applcations, User-Agent based applications)|
+
+### OAuth 2.0 Endpoints
+
+|---|---|
+|:--|:--|
+|Authorization endpoint|used by the client to obatin authorization from the resource owner via user-agent redirection|
+|||
