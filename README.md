@@ -41,4 +41,4 @@ Flows:
 |---|---|
 |:--|:--|
 |Authorization endpoint|used by the client to obatin authorization from the resource owner via user-agent redirection|
-|||
+|Token endpoint|used by client to exchange an authorization grant for an access token, typically with client authentication|
