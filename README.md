@@ -52,3 +52,7 @@ Implements OAuth 2.0 and OpenID Connect
 
 Highly optimized to solve the typical security problems of today's mobile, native and web applications.
 
+Part of the .NET Foundation
+
+[https://identitysever.github.io](https://identitysever.github.io)
+
