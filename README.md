@@ -56,3 +56,15 @@ Part of the .NET Foundation
 
 [https://identitysever.github.io](https://identitysever.github.io)
 
+## Authorizing Access to the API
+
+## Understanding Identity: OpenID Connect
+
+## Working with OpenID Connect on the Client
+
+## Impersonating the User When Accessing the API
+
+## Advanced Topics
+
+## Dealing With Credentials
+
