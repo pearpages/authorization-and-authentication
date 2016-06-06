@@ -86,6 +86,30 @@ No client authentication (a public client can't safely store the secret anyway).
 - access token
 ```
 
+### Authorization Code Flow
+
+Optimized for **confidential** clients (but it can be used by public clients as well).
+
+Can be used to obtain access tokens and refresh tokens.
+
+Includes a client authentication step.
+
+```
+- client id & redirection URI
+- user authenticates
+- authorization code
+- authorization code & redirection URI
+- access token (& refresh token)
+```
+
+### Resource Owner Password Credentials Flow
+
+The client must be capable of obtaining the **resource owner's credentials** (typically through an in-app login screen).
+
+Only for trusted applications.
+
+Can be used to obtain access tokens and refresh tokens, and includes a client authentication step.
+
 ## Understanding Identity: OpenID Connect
 
 ## Working with OpenID Connect on the Client
