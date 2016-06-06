@@ -69,6 +69,14 @@ Client: client id & secret -->
 Authorization Server: <-- access token
 ```
 
+### Implicit Flow
+
+Optimized for **public** clients at predefined redirection uri (but it can be used by confidential clients as well).
+
+Can be used to obtain access tokens ... but no refresh tokens.
+
+No client authentication (a public client can't safely store the secret anyway).
+
 ## Understanding Identity: OpenID Connect
 
 ## Working with OpenID Connect on the Client
