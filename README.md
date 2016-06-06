@@ -77,6 +77,15 @@ Can be used to obtain access tokens ... but no refresh tokens.
 
 No client authentication (a public client can't safely store the secret anyway).
 
+```
+- client id & redirection URI
+- user authenticates
+- redirection URI (with fragment)
+- redirection URI
+- page with embedded script
+- access token
+```
+
 ## Understanding Identity: OpenID Connect
 
 ## Working with OpenID Connect on the Client
