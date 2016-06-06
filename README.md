@@ -62,6 +62,8 @@ Part of the .NET Foundation
 
 Machine to machine communication. No human involved: no username/password. It can be used to obtain access tokens using client credentials.
 
+Must only be used by **confidential** clients (because a public client cannot safely store the client secret).
+
 ## Understanding Identity: OpenID Connect
 
 ## Working with OpenID Connect on the Client
