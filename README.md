@@ -64,6 +64,11 @@ Machine to machine communication. No human involved: no username/password. It ca
 
 Must only be used by **confidential** clients (because a public client cannot safely store the client secret).
 
+```
+Client: client id & secret -->
+Authorization Server: <-- access token
+```
+
 ## Understanding Identity: OpenID Connect
 
 ## Working with OpenID Connect on the Client
