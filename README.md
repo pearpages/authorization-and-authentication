@@ -119,6 +119,12 @@ Greater risk than other flows.
 - access token (& refresh token)
 ```
 
+### Angular and Cross-Origin Resource Sharing
+
+Browser security prevents a web page from making AJAX requests to **another domain**.
+
+Cross-origin Resources Sharing (CORS) is a W3C standard that allows a server to relax the same-origin policy.
+
 ## Understanding Identity: OpenID Connect
 
 ## Working with OpenID Connect on the Client
