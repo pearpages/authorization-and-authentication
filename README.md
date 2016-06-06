@@ -131,7 +131,16 @@ OAuth 2.0 is about authorization.
 
 > OpenID Connect 1.0 is a simple identity layer on top of the OAUth 2.0 protocol.
 
-### Identity Token and UserInfo Endpoint
+### Identity Token 
+
+**id_token** contains claims about the authentication of and end user (and potentially other requested claims).
+
+id_tokens can be used for signing in to an application. Access tokens are for accessing resources!
+
+### UserInfo Endpoint
+
+- can be used by the client to get moreuser information of the authenticated user.
+- these claims are requested with the **access_token**.
 
 ### OpenID Connect Flows
 
