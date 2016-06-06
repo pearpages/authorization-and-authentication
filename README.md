@@ -110,6 +110,15 @@ Only for trusted applications.
 
 Can be used to obtain access tokens and refresh tokens, and includes a client authentication step.
 
+Greater risk than other flows.
+
+> Only use this if other flows aren't viable!
+
+```
+- username/password
+- access token (& refresh token)
+```
+
 ## Understanding Identity: OpenID Connect
 
 ## Working with OpenID Connect on the Client
