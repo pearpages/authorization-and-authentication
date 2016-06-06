@@ -127,6 +127,16 @@ Cross-origin Resources Sharing (CORS) is a W3C standard that allows a server to 
 
 ## Understanding Identity: OpenID Connect
 
+OAuth 2.0 is about authorization.
+
+> OpenID Connect 1.0 is a simple identity layer on top of the OAUth 2.0 protocol.
+
+### Identity Token and UserInfo Endpoint
+
+### OpenID Connect Flows
+
+### Scopes and Claims
+
 ## Working with OpenID Connect on the Client
 
 ## Impersonating the User When Accessing the API
