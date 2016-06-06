@@ -58,6 +58,10 @@ Part of the .NET Foundation
 
 ## Authorizing Access to the API
 
+### Client Credentials Flow
+
+Machine to machine communication. No human involved: no username/password. It can be used to obtain access tokens using client credentials.
+
 ## Understanding Identity: OpenID Connect
 
 ## Working with OpenID Connect on the Client
