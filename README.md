@@ -144,6 +144,15 @@ id_tokens can be used for signing in to an application. Access tokens are for ac
 
 ### OpenID Connect Flows
 
+OpenID Connect extends OAuth 2.0's:
+
+- Authorization Code
+- Implicit Flows
+
+And introduces a new one: 
+
+- **Hybrid**
+
 ### Scopes and Claims
 
 ## Working with OpenID Connect on the Client
